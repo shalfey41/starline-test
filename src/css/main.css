@@ -330,8 +330,6 @@ body {
 @media (max-width: 1023px) {
   .container {
     max-width: 890px;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 }
 
@@ -344,6 +342,11 @@ body {
 @media (max-width: 710px) {
   html {
     font-size: 8px;
+  }
+
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -544,20 +547,6 @@ body {
 
   .bar__column--large {
     max-width: 330px;
-  }
-}
-
-@media (min-width: 710px) and (max-width: 899px) {
-  .bar__column {
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-  }
-
-  .bar__column--large {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
   }
 }
 

@@ -110,19 +110,6 @@
   }
 }
 
-@media (min-width: 710px) and (max-width: 899px) {
-  .bar {
-    &__column {
-      flex-grow: 0;
-
-
-      &--large {
-        flex-grow: 1;
-      }
-    }
-  }
-}
-
 @media (max-width: 710px) {
   .bar {
     &__column {
